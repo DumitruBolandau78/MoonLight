@@ -1,28 +1,12 @@
-body
-    margin: 0
-
 html
     padding: 0
     margin: 0
+    scroll-behavior: smooth
 
-.container
-    width: 100%
-    display: flex
-
-.homepage-wrapper
-    width: 100%
-    background-image: url('../images/first_bg.jpg')
-    display: flex
-    justify-content: center
-
-.homepage-inner
-    max-width: 1200px
-    width: 100%
-    padding: 0 10px
-    height: 100vh
-    display: flex
-    justify-content: space-between
-    align-items: center
+body
+    margin: 0
+    overflow: hidden
+    position: relative
 
 .aside
     height: 80vh
@@ -32,6 +16,10 @@ html
     flex-direction: column
     align-items: flex-start
     justify-content: center
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
 
     ul
         list-style: none
@@ -57,14 +45,30 @@ html
             i
                 margin-right: 20px
 
-.homepage-main-wrapper
+.container
+    width: 100%
+
+.homepage-wrapper
+    width: 100%
+    background-image: url('../images/first_bg.jpg')
+    height: 100vh
     display: flex
-    justify-content: center
     align-items: center
+    justify-content: right
+    padding: 0 10px
+
+.homepage-main-wrapper
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px 100px
-    margin-left: 100px
+    width: 100%
+    margin-left: 300px
+    display: flex
+    align-items: center
+
+.homepage-main-inner
+    display: flex
+    align-items: center
 
 .left-side-image
     display: flex
@@ -115,3 +119,18 @@ html
             &:hover
                 background-color: transparent
                 color: white
+
+// .about-wrapper
+//     width: 100%
+//     background-image: url('../images/first_bg.jpg')
+//     display: flex
+//     justify-content: center
+
+// .about-inner
+//     max-width: 1200px
+//     width: 100%
+//     padding: 0 10px
+//     height: 100vh
+//     display: flex
+//     justify-content: space-between
+//     align-items: center
