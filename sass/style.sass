@@ -12,9 +12,12 @@ html
 .homepage-wrapper
     width: 100%
     background-image: url('../images/first_bg.jpg')
+    display: flex
+    justify-content: center
 
 .homepage-inner
     max-width: 1200px
+    width: 100%
     padding: 0 10px
     height: 100vh
     display: flex
@@ -23,7 +26,7 @@ html
 
 .aside
     height: 80vh
-    padding: 30px 30px
+    padding: 20px 40px
     background-color: #0f0f0fb3
     display: flex
     flex-direction: column
@@ -53,3 +56,62 @@ html
 
             i
                 margin-right: 20px
+
+.homepage-main-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #0f0f0fb3
+    height: 80vh
+    padding: 20px 100px
+    margin-left: 100px
+
+.left-side-image
+    display: flex
+    align-items: center
+
+    img
+        width: 160px
+        margin-right: 30px
+
+.homepage-title
+    display: inline
+    color: white
+    font-size: 35px
+    font-weight: 900
+    font-family: Arial, Helvetica, sans-serif
+    letter-spacing: 1px
+
+.homepage-description
+    color: rgb(211, 211, 211)
+    font-size: 15px
+    line-height: 30px
+    font-family: "Open Sans", sans-serif
+
+.homepage-btns
+    margin-top: 20px
+
+    a
+        text-decoration: none
+        display: inline-block
+        transition: .5s
+            
+        &:first-child
+            color: white
+            border: 2px solid white
+            padding: 10px 20px
+            margin-right: 20px
+
+            &:hover
+                color: rgb(49, 49, 49)
+                background-color: white
+
+        &:last-child
+            color: rgb(49, 49, 49)
+            background-color: white
+            border: 2px solid white
+            padding: 10px 20px
+
+            &:hover
+                background-color: transparent
+                color: white
