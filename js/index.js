@@ -160,3 +160,62 @@ item12.addEventListener('mouseout', () =>{
     number12.forEach(element => {
     element.style.visibility = 'hidden';});
 });
+
+// const li1 = document.querySelector('.li1'),
+//       li2 = document.querySelector('.li2'),
+//       li3 = document.querySelector('.li3'),
+//       li4 = document.querySelector('.li4'),
+//       li5 = document.querySelector('.li5');
+
+// li1.addEventListener('click', () => {
+//     li1.style.backgroundColor = 'white';
+//     li1.style.color = 'rgb(49, 49, 49)';
+// });
+
+// li2.addEventListener('click', () => {
+//     li2.style.backgroundColor = 'white';
+//     li2.style.color = 'rgb(49, 49, 49)';
+// });
+
+// li3.addEventListener('click', () => {
+//     li3.style.backgroundColor = 'white';
+//     li3.style.color = 'rgb(49, 49, 49)';
+// });
+
+// li4.addEventListener('click', () => {
+//     li4.style.backgroundColor = 'white';
+//     li4.style.color = 'rgb(49, 49, 49)';
+// });
+
+// li5.addEventListener('click', () => {
+//     li5.style.backgroundColor = 'white';
+//     li5.style.color = 'rgb(49, 49, 49)';
+// });
+
+const ul = document.querySelector('ul');
+
+ul.addEventListener('click', hoverLink);
+ul.firstElementChild.style.backgroundColor = 'white';
+ul.firstElementChild.querySelector('a').style.color = 'rgb(49, 49, 49)';
+
+
+function hoverLink(event){
+    for (let li of ul.children){
+        li.style.backgroundColor = '';
+         li.querySelector('a').style.color = '';
+    }
+
+    let li = event.target.closest('li');
+
+    if(!li) return;
+
+    li.style.backgroundColor = 'white';
+    li.querySelector('a').style.color = 'rgb(49, 49, 49)';
+}
+
+// for (let li of document.querySelector('ul').children){
+//     li.addEventListener('click', (event) =>{
+        
+//         li.style.backgroundColor = 'white';
+//     })
+// }
