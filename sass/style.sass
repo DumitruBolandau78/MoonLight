@@ -16,7 +16,7 @@ body
     flex-direction: column
     align-items: flex-start
     justify-content: center
-    position: absolute
+    position: fixed
     left: 0
     top: 50%
     transform: translateY(-50%)
@@ -46,23 +46,26 @@ body
                 margin-right: 20px
 
 .container
-    width: 100%
+    width: 500vw
+    display: flex
+    flex-direction: row
+
 
 .homepage-wrapper
-    width: 100%
+    width: 100vw
     background-image: url('../images/first_bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
     height: 100vh
     display: flex
     align-items: center
     justify-content: right
-    padding: 0 10px
 
 .homepage-main-wrapper
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px 100px
-    width: 100%
-    margin-left: 300px
+    width: 80%
     display: flex
     align-items: center
 
@@ -120,17 +123,108 @@ body
                 background-color: transparent
                 color: white
 
-// .about-wrapper
-//     width: 100%
-//     background-image: url('../images/first_bg.jpg')
-//     display: flex
-//     justify-content: center
+.about-wrapper
+    width: 100vw
+    background-image: url('../images/second_bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: right
+    padding: 0 10px
 
-// .about-inner
-//     max-width: 1200px
-//     width: 100%
-//     padding: 0 10px
-//     height: 100vh
-//     display: flex
-//     justify-content: space-between
-//     align-items: center
+.about-main-wrapper
+    background-color: #0f0f0fb3
+    height: 80vh
+    padding: 20px 100px
+    width: 100%
+    margin-left: 300px
+    display: flex
+    align-items: center
+
+.about-main-inner
+    display: flex
+    align-items: center
+
+
+
+.entries-wrapper
+    width: 100vw
+    background-image: url('../images/third_bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: right
+    padding: 0 10px
+
+.entries-main-wrapper
+    background-color: #0f0f0fb3
+    height: 80vh
+    padding: 20px 100px
+    width: 100%
+    margin-left: 300px
+    display: flex
+    align-items: center
+
+.entries-main-inner
+    display: flex
+    align-items: center
+
+
+
+
+
+
+.work-wrapper
+    width: 100vw
+    background-image: url('../images/fourth_bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: right
+    padding: 0 10px
+
+.work-main-wrapper
+    background-color: #0f0f0fb3
+    height: 80vh
+    padding: 20px 100px
+    width: 100%
+    margin-left: 300px
+    display: flex
+    align-items: center
+
+.work-main-inner
+    display: flex
+    align-items: center
+
+
+
+
+.contact-wrapper
+    width: 100vw
+    background-image: url('../images/fifth_bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: right
+    padding: 0 10px
+
+.contact-main-wrapper
+    background-color: #0f0f0fb3
+    height: 80vh
+    padding: 20px 100px
+    width: 100%
+    margin-left: 300px
+    display: flex
+    align-items: center
+
+.contact-main-inner
+    display: flex
+    align-items: center
