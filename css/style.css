@@ -385,16 +385,48 @@ body {
 .contact-main-wrapper {
   background-color: rgba(15, 15, 15, 0.7019607843);
   height: 80vh;
-  padding: 20px 100px;
-  width: 65%;
+  padding: 20px 0;
+  width: calc(65% + 200px);
   margin-left: 300px;
-  display: flex;
-  align-items: center;
+  overflow: auto;
 }
 
 .contact-main-inner {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  gap: 50px;
+  height: 100%;
+}
+
+.form-contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.form-contacts input {
+  padding: 8px 15px;
+  height: 25px;
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.form-contacts textarea {
+  padding: 8px 15px;
+  height: 25px;
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  height: 200px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  color: white;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  border-top: 2px solid rgba(24, 24, 24, 0.99);
+  border-left: 2px solid rgba(24, 24, 24, 0.99);
 }
 
 .footer-rights {
