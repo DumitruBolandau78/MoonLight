@@ -1,0 +1,162 @@
+const number1 = document.querySelectorAll('.number1'),
+      number2 = document.querySelectorAll('.number2'),
+      number3 = document.querySelectorAll('.number3'),
+      number4 = document.querySelectorAll('.number4'),
+      number5 = document.querySelectorAll('.number5'),
+      number6 = document.querySelectorAll('.number6'),
+      number7 = document.querySelectorAll('.number7'),
+      number8 = document.querySelectorAll('.number8'),
+      number9 = document.querySelectorAll('.number9'),
+      number10 = document.querySelectorAll('.number10'),
+      number11 = document.querySelectorAll('.number11'),
+      number12 = document.querySelectorAll('.number12');
+
+const item1 = document.querySelector('.item1'),
+      item2 = document.querySelector('.item2'),
+      item3 = document.querySelector('.item3'),
+      item4 = document.querySelector('.item4'),
+      item5 = document.querySelector('.item5'),
+      item6 = document.querySelector('.item6'),
+      item7 = document.querySelector('.item7'),
+      item8 = document.querySelector('.item8'),
+      item9 = document.querySelector('.item9'),
+      item10 = document.querySelector('.item10'),
+      item11 = document.querySelector('.item11'),
+      item12 = document.querySelector('.item12');
+
+// item1.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+// number1.forEach(element => {
+
+
+
+item1.addEventListener('mouseover', () => {
+    item1.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number1.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item1.addEventListener('mouseout', () =>{
+    item1.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number1.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item2.addEventListener('mouseover', () => {
+    item2.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number2.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item2.addEventListener('mouseout', () =>{
+    item2.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number2.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item3.addEventListener('mouseover', () => {
+    item3.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number3.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item3.addEventListener('mouseout', () =>{
+    item3.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number3.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item4.addEventListener('mouseover', () => {
+    item4.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number4.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item4.addEventListener('mouseout', () =>{
+    item4.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number4.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item5.addEventListener('mouseover', () => {
+    item5.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number5.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item5.addEventListener('mouseout', () =>{
+    item5.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number5.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item6.addEventListener('mouseover', () => {
+    item6.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number6.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item6.addEventListener('mouseout', () =>{
+    item6.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number6.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item7.addEventListener('mouseover', () => {
+    item7.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number7.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item7.addEventListener('mouseout', () =>{
+    item7.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number7.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item8.addEventListener('mouseover', () => {
+    item8.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number8.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item8.addEventListener('mouseout', () =>{
+    item8.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number8.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item9.addEventListener('mouseover', () => {
+    item9.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number9.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item9.addEventListener('mouseout', () =>{
+    item9.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number9.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item10.addEventListener('mouseover', () => {
+    item10.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number10.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item10.addEventListener('mouseout', () =>{
+    item10.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number10.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item11.addEventListener('mouseover', () => {
+    item11.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number11.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item11.addEventListener('mouseout', () =>{
+    item11.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number11.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
+
+item12.addEventListener('mouseover', () => {
+    item12.style.backgroundColor = 'rgba(0, 0, 0, .94)';
+    number12.forEach(element => {
+    element.style.visibility = 'visible';});
+});
+item12.addEventListener('mouseout', () =>{
+    item12.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    number12.forEach(element => {
+    element.style.visibility = 'hidden';});
+});
