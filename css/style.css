@@ -39,6 +39,7 @@ body {
   display: block;
   letter-spacing: 0.3px;
   width: 100px;
+  position: relative;
 }
 .aside ul a i {
   margin-right: 20px;
@@ -423,6 +424,18 @@ body {
   border-right: 2px solid gray;
   border-top: 2px solid rgba(24, 24, 24, 0.99);
   border-left: 2px solid rgba(24, 24, 24, 0.99);
+}
+.form-contacts button {
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  height: 45px;
+  cursor: pointer;
+  outline: none;
+}
+.form-contacts button:hover {
+  background-color: white;
+  color: black;
 }
 
 .footer-rights {

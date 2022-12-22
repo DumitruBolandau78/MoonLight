@@ -161,37 +161,6 @@ item12.addEventListener('mouseout', () =>{
     element.style.visibility = 'hidden';});
 });
 
-// const li1 = document.querySelector('.li1'),
-//       li2 = document.querySelector('.li2'),
-//       li3 = document.querySelector('.li3'),
-//       li4 = document.querySelector('.li4'),
-//       li5 = document.querySelector('.li5');
-
-// li1.addEventListener('click', () => {
-//     li1.style.backgroundColor = 'white';
-//     li1.style.color = 'rgb(49, 49, 49)';
-// });
-
-// li2.addEventListener('click', () => {
-//     li2.style.backgroundColor = 'white';
-//     li2.style.color = 'rgb(49, 49, 49)';
-// });
-
-// li3.addEventListener('click', () => {
-//     li3.style.backgroundColor = 'white';
-//     li3.style.color = 'rgb(49, 49, 49)';
-// });
-
-// li4.addEventListener('click', () => {
-//     li4.style.backgroundColor = 'white';
-//     li4.style.color = 'rgb(49, 49, 49)';
-// });
-
-// li5.addEventListener('click', () => {
-//     li5.style.backgroundColor = 'white';
-//     li5.style.color = 'rgb(49, 49, 49)';
-// });
-
 const ul = document.querySelector('ul');
 
 ul.addEventListener('click', hoverLink);
