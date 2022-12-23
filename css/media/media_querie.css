@@ -147,4 +147,24 @@
     .open {
         display: block;
     }
+
+    .homepage-main-wrapper {
+        margin-left: 0;
+    }
+
+    .about-main-wrapper {
+        margin-left: 0;
+    }
+
+    .entries-main-wrapper {
+        margin-left: 0;
+    }
+
+    .work-main-wrapper {
+        margin-left: 0;
+    }
+
+    .contact-main-wrapper {
+        margin-left: 0;
+    }
 }

@@ -189,13 +189,29 @@ const aside = document.querySelector('.aside');
 open.addEventListener('click', () => {
     aside.style.left = '0';
     open.style.display = 'none';
+    close.style.display = 'block';
 });
 
 close.addEventListener('click', () => {
     aside.style.left = '-100%';
-    close.style.display = 'block';
+    close.style.display = 'none';
+    open.style.display = 'block';
 });
 
+const onotherMediaQuerie = window.matchMedia('(max-width: 500px)');
+
+onotherMediaQuerie.addListener(changeForMedia);
+
+function changeForMedia(e) {
+    if (e.matches) {
+        close.style.display = 'none';
+        open.style.display = 'block';
+    } else {
+        open.style.display = 'none';
+        close.style.display = 'none';
+        aside.style.left = '0';
+  }
+}
 
 const mediaQuery = window.matchMedia('(min-width: 850px)');
 

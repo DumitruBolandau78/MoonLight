@@ -1,13 +1,14 @@
 html
     padding: 0
     margin: 0
-    scroll-behavior: smooth
     font-family: Arial, Helvetica, sans-serif
+    overflow: hidden
 
 body
     margin: 0
     overflow: hidden
     position: relative
+    scroll-behavior: smooth
 
 .close-open-aside
     position: fixed
@@ -34,6 +35,7 @@ body
     left: 0
     top: 50%
     transform: translateY(-50%)
+    transition: .5s
 
     ul
         list-style: none
@@ -66,6 +68,7 @@ body
     width: 500%
     display: flex
     flex-direction: row
+    overflow: hidden
 
 .homepage-wrapper
     width: 100%
@@ -76,6 +79,7 @@ body
     display: flex
     align-items: center
     justify-content: right
+    overflow: hidden
 
 .homepage-main-wrapper
     background-color: #0f0f0fb3
@@ -157,6 +161,7 @@ body
     display: flex
     align-items: center
     justify-content: right
+    overflow: hidden
 
 .about-main-wrapper
     background-color: #0f0f0fb3
@@ -211,6 +216,7 @@ body
     display: flex
     align-items: center
     justify-content: right
+    overflow: hidden
 
 .entries-main-wrapper
     background-color: #0f0f0fb3
@@ -259,6 +265,7 @@ body
     display: flex
     align-items: center
     justify-content: right
+    overflow: hidden
 
 .work-main-wrapper
     background-color: #0f0f0fb3
@@ -348,6 +355,7 @@ body
     display: flex
     align-items: center
     justify-content: right
+    overflow: hidden
 
 .contact-main-wrapper
     background-color: #0f0f0fb3
@@ -407,7 +415,9 @@ body
 
 .footer-rights
     position: fixed
-    bottom: 10px
+    bottom: 5px
     color: white
     left: 50%
+    transform: translateX(-50%)
     text-align: center
+    white-space: nowrap
