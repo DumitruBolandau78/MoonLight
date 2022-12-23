@@ -155,7 +155,7 @@ item12.addEventListener('mouseover', () => {
     number12.forEach(element => {
     element.style.visibility = 'visible';});
 });
-item12.addEventListener('mouseout', () =>{
+item12.addEventListener('mouseout', () => {
     item12.style.backgroundColor = 'rgba(0, 0, 0, 0)';
     number12.forEach(element => {
     element.style.visibility = 'hidden';});
@@ -171,7 +171,7 @@ ul.firstElementChild.querySelector('a').style.color = 'rgb(49, 49, 49)';
 function hoverLink(event){
     for (let li of ul.children){
         li.style.backgroundColor = '';
-         li.querySelector('a').style.color = '';
+        li.querySelector('a').style.color = '';
     }
 
     let li = event.target.closest('li');
@@ -182,9 +182,31 @@ function hoverLink(event){
     li.querySelector('a').style.color = 'rgb(49, 49, 49)';
 }
 
-// for (let li of document.querySelector('ul').children){
-//     li.addEventListener('click', (event) =>{
-        
-//         li.style.backgroundColor = 'white';
-//     })
-// }
+const open = document.querySelector('.open');
+const close = document.querySelector('.close');
+const aside = document.querySelector('.aside');
+
+open.addEventListener('click', () => {
+    aside.style.left = '0';
+    open.style.display = 'none';
+});
+
+close.addEventListener('click', () => {
+    aside.style.left = '-100%';
+    close.style.display = 'block';
+});
+
+
+const mediaQuery = window.matchMedia('(min-width: 850px)');
+
+const asideImg = document.querySelector('.aside-logo');
+
+mediaQuery.addListener(handleDeviceChange);
+
+function handleDeviceChange(e) {
+    if (e.matches) {
+        asideImg.querySelector('img').src = '../images/logo.png';
+    } else {
+        asideImg.querySelector('img').src = '../images/mini_logo.png';
+  }
+}

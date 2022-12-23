@@ -9,6 +9,19 @@ body
     overflow: hidden
     position: relative
 
+.close-open-aside
+    position: fixed
+    top: 10px
+    left: 10px
+    font-size: 25px
+    color: white
+
+.close
+    display: none
+
+.open
+    display: none
+
 .aside
     height: 80vh
     padding: 20px 40px
@@ -26,15 +39,13 @@ body
         list-style: none
         padding: 0
 
-        li
-            display: flex
-
         a
             text-decoration: none
             color: white
-            padding: 20px 30px
+            padding: 8px 30px
             margin: 6px 0
-            display: block
+            display: flex
+            align-items: center
             letter-spacing: .3px
             width: 100px
             position: relative
@@ -151,7 +162,6 @@ body
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px
-    width: 65%
     margin-left: 300px
     display: flex
     align-items: center
@@ -160,6 +170,7 @@ body
 .about-main-inner
     display: grid
     grid-template-columns: 1fr 1fr
+    align-items: flex-start
     width: 100%
     overflow: auto
     height: 100%
@@ -212,8 +223,10 @@ body
     display: grid
     grid-template-columns: 1fr 1fr
     grid-template-rows: auto auto
+    align-items: flex-start
     overflow: auto
     height: 100%
+    gap: 20px
 
 .entries-card
     &:last-child
@@ -259,7 +272,7 @@ body
     overflow: auto
     display: grid
     grid-template-columns: repeat(3, 1fr)
-    grid-template-rows: repeat(4, 200px)
+    grid-auto-rows: 220px
     gap: 20px
 
 .first-big-item
@@ -355,7 +368,7 @@ body
     display: grid
     grid-template-columns: 1fr
 
-    input 
+    input
         padding: 8px 15px
         height: 25px
         font-size: 18px
@@ -397,3 +410,4 @@ body
     bottom: 10px
     color: white
     left: 50%
+    text-align: center
