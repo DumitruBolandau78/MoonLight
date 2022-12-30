@@ -36,15 +36,10 @@
         font-size: 20px;
     }
 
-    li {
-        padding: 0;
-        margin: 0;
-    }
-
     .aside ul a {
-        padding: 25px 0;
-        margin: 3px 0;
         justify-content: center;
+        width: 80px;
+        padding: 25px 0;
     }
 
     ul a p {
@@ -119,23 +114,23 @@
 
 @media (max-width: 850px){
     .homepage-main-wrapper {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .about-main-wrapper {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .entries-main-wrapper {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .work-main-wrapper {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .contact-main-wrapper {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 }
 
@@ -166,5 +161,37 @@
 
     .contact-main-wrapper {
         margin-left: 0;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 850px){
+    .aside ul a {
+        padding: 15px 30px;
+    }
+}
+
+@media (max-height: 500px) and (max-width: 850px){
+    .aside ul a {
+        padding: 13px 30px;
+    }
+}
+
+@media (max-height: 640px) and (max-width: 850px){
+    .left-side-image {
+        margin-top: 200px;
+    }
+
+    .right-side-homepage{
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-height: 480px) and (max-width: 850px){
+    .left-side-image {
+        margin-top: 310px;
+    }
+
+    .right-side-homepage{
+        margin-bottom: 50px;
     }
 }

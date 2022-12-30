@@ -1,3 +1,6 @@
+*, *::before, *::after
+    box-sizing: border-box
+    
 html
     padding: 0
     margin: 0
@@ -37,6 +40,10 @@ body
     transform: translateY(-50%)
     transition: .5s
 
+    img
+        width: 140px
+        height: 100%
+
     ul
         list-style: none
         padding: 0
@@ -44,12 +51,12 @@ body
         a
             text-decoration: none
             color: white
-            padding: 8px 30px
+            padding: 6px 30px
             margin: 6px 0
             display: flex
             align-items: center
             letter-spacing: .3px
-            width: 100px
+            width: 190px
             position: relative
 
             i
@@ -84,10 +91,10 @@ body
 .homepage-main-wrapper
     background-color: #0f0f0fb3
     height: 80vh
-    padding: 20px 100px
-    width: 100%
     display: flex
     align-items: center
+    padding: 20px 100px
+    width: 100%
     margin-left: 300px
 
 .homepage-main-inner
@@ -170,7 +177,7 @@ body
     margin-left: 300px
     display: flex
     align-items: center
-    width: calc( 100% + 200px )
+    width: 100%
 
 .about-main-inner
     display: grid
@@ -222,7 +229,7 @@ body
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px
-    width: calc(65% + 180px)
+    width: 100%
     margin-left: 300px
 
 .entries-main-inner
@@ -271,7 +278,7 @@ body
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px
-    width: calc(65% + 200px)
+    width: 100%
     margin-left: 300px
 
 .work-main-inner
@@ -361,7 +368,7 @@ body
     background-color: #0f0f0fb3
     height: 80vh
     padding: 20px 0
-    width: calc(65% + 200px)
+    width: 100%
     margin-left: 300px
     overflow: auto
 
