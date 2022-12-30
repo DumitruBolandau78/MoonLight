@@ -182,16 +182,12 @@
     }
 
     .right-side-homepage{
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 }
 
 @media (max-height: 480px) and (max-width: 850px){
     .left-side-image {
         margin-top: 310px;
-    }
-
-    .right-side-homepage{
-        margin-bottom: 50px;
     }
 }

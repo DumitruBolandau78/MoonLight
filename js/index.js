@@ -226,3 +226,13 @@ function handleDeviceChange(e) {
         asideImg.querySelector('img').src = '../images/mini_logo.png';
   }
 }
+
+const homepageLink = document.querySelector('a');
+
+homepageLink.addEventListener('click', () => {
+    const li = document.querySelectorAll('li');
+    li.forEach(item => {
+        item.style.backgroundColor = 'transparent';
+    });
+    li[1].style.backgroundColor = 'white';
+});
