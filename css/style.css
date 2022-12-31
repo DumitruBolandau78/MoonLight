@@ -107,6 +107,7 @@ body {
   align-items: center;
   padding: 20px 100px;
   width: 100%;
+  max-width: 1500px;
   margin-left: 300px;
 }
 
@@ -198,6 +199,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
+  max-width: 1500px;
 }
 
 .about-main-inner {
@@ -255,6 +257,7 @@ body {
   height: 80%;
   padding: 20px;
   width: 100%;
+  max-width: 1500px;
   margin-left: 300px;
 }
 
@@ -307,6 +310,7 @@ body {
   height: 80%;
   padding: 20px;
   width: 100%;
+  max-width: 1500px;
   margin-left: 300px;
 }
 
@@ -416,6 +420,7 @@ body {
   height: 80%;
   padding: 20px 0;
   width: 100%;
+  max-width: 1500px;
   margin-left: 300px;
   overflow: auto;
 }
