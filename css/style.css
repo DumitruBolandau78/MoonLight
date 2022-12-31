@@ -423,7 +423,7 @@ body {
 .contact-main-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 30px;
+  padding: 10px;
   gap: 50px;
   height: 100%;
 }
@@ -433,12 +433,13 @@ body {
   grid-template-columns: 1fr;
 }
 .form-contacts input {
-  padding: 8px 15px;
+  padding: 20px 15px;
   height: 25px;
   font-size: 18px;
   background-color: transparent;
   outline: none;
   color: white;
+  width: 100%;
 }
 .form-contacts textarea {
   padding: 8px 15px;
