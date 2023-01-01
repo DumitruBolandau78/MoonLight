@@ -117,7 +117,6 @@ body {
   display: flex;
   align-items: center;
   overflow: auto;
-  height: 100%;
   max-height: 100vh;
 }
 
@@ -210,7 +209,6 @@ body {
   align-items: flex-start;
   width: 100%;
   overflow: auto;
-  height: 100%;
 }
 
 .left-side-about {
@@ -269,7 +267,6 @@ body {
   grid-template-rows: auto auto;
   align-items: flex-start;
   overflow: auto;
-  height: 100%;
   gap: 20px;
 }
 
@@ -317,7 +314,6 @@ body {
 }
 
 .work-main-inner {
-  height: 100%;
   overflow: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -431,7 +427,6 @@ body {
   grid-template-columns: 1fr 1fr;
   padding: 10px;
   gap: 50px;
-  height: 100%;
 }
 
 .form-contacts {
