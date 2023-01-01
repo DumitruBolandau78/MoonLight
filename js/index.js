@@ -283,3 +283,9 @@ linkArray.forEach((item, i) => {
         li[i].querySelector('a').style.color = 'rgb(49, 49, 49)';
     }
 });
+
+const form = document.querySelector('form.form');
+
+form.addEventListener('click', (e) => {
+    e.preventDefault;
+});

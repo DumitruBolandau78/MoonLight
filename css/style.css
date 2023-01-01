@@ -6,7 +6,7 @@ html {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
@@ -97,7 +97,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .homepage-main-wrapper {
@@ -109,6 +109,7 @@ body {
   width: 100%;
   max-width: 1500px;
   margin-left: 300px;
+  overflow: auto;
 }
 
 .homepage-main-inner {
@@ -188,7 +189,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .about-main-wrapper {
@@ -200,6 +201,7 @@ body {
   align-items: center;
   width: 100%;
   max-width: 1500px;
+  overflow: auto;
 }
 
 .about-main-inner {
@@ -249,7 +251,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .entries-main-wrapper {
@@ -259,6 +261,7 @@ body {
   width: 100%;
   max-width: 1500px;
   margin-left: 300px;
+  overflow: auto;
 }
 
 .entries-main-inner {
@@ -302,7 +305,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .work-main-wrapper {
@@ -312,6 +315,7 @@ body {
   width: 100%;
   max-width: 1500px;
   margin-left: 300px;
+  overflow: auto;
 }
 
 .work-main-inner {
@@ -412,7 +416,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .contact-main-wrapper {
