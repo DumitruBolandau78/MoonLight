@@ -33,7 +33,7 @@ body {
 }
 
 .aside {
-  height: 80%;
+  height: 80vh;
   padding: 0 40px;
   background-color: rgba(15, 15, 15, 0.7019607843);
   display: flex;
@@ -86,8 +86,6 @@ body {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  max-height: 100vh;
-  height: 100%;
 }
 
 .homepage-wrapper {
@@ -99,6 +97,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: auto;
+  height: 100vh;
 }
 
 .homepage-main-wrapper {
@@ -117,7 +116,6 @@ body {
   display: flex;
   align-items: center;
   overflow: auto;
-  max-height: 100vh;
 }
 
 .title {
