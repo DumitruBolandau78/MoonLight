@@ -289,11 +289,3 @@ const form = document.querySelector('form.form');
 form.addEventListener('click', (e) => {
     e.preventDefault;
 });
-
-
-const documentHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty('--doc-height', `${window.innerHeight}px`);
-};
-
-window.addEventListener('resize', documentHeight);
