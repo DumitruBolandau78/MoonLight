@@ -8,8 +8,6 @@ html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overflow: auto;
-  height: fill-available;
-  height: -webkit-fill-available;
 }
 
 body {
@@ -17,9 +15,6 @@ body {
   overflow: hidden;
   position: relative;
   scroll-behavior: smooth;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
 }
 
 .close-open-aside {
@@ -100,9 +95,7 @@ body {
   background-image: url("../images/first_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -192,9 +185,7 @@ body {
   background-image: url("../images/second_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -255,9 +246,7 @@ body {
   background-image: url("../images/third_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -310,9 +299,7 @@ body {
   background-image: url("../images/fourth_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -422,9 +409,7 @@ body {
   background-image: url("../images/fifth_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: right;
