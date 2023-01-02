@@ -15,6 +15,7 @@ body {
   overflow: hidden;
   position: relative;
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 .close-open-aside {
