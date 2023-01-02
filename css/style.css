@@ -101,6 +101,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .homepage-main-wrapper {
@@ -191,6 +192,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .about-main-wrapper {
@@ -252,6 +254,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .entries-main-wrapper {
@@ -305,6 +308,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .work-main-wrapper {
@@ -415,6 +419,7 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .contact-main-wrapper {
