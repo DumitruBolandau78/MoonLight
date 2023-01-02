@@ -95,7 +95,7 @@ body {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  height: 100vh;
+  height: 100%;
 }
 
 .homepage-wrapper {
@@ -103,7 +103,7 @@ body {
   background-image: url("../images/first_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -193,7 +193,7 @@ body {
   background-image: url("../images/second_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -254,7 +254,7 @@ body {
   background-image: url("../images/third_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -307,7 +307,7 @@ body {
   background-image: url("../images/fourth_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -417,7 +417,7 @@ body {
   background-image: url("../images/fifth_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
