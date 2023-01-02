@@ -297,4 +297,3 @@ const documentHeight = () => {
 };
 
 window.addEventListener('resize', documentHeight);
-documentHeight();
