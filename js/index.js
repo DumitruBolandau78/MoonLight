@@ -292,7 +292,7 @@ form.addEventListener('click', (e) => {
 
 
 const documentHeight = () => {
-    const doc = document.documentElement;
+    const doc = document.body;
     doc.style.setProperty('--doc-height', `${window.innerHeight}px`);
 };
 
