@@ -8,6 +8,8 @@ html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overflow: auto;
+  height: fill-available;
+  height: -webkit-fill-available;
 }
 
 body {
@@ -15,6 +17,10 @@ body {
   overflow: hidden;
   position: relative;
   scroll-behavior: smooth;
+  height: 100vh;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
 }
 
 .close-open-aside {
@@ -88,7 +94,6 @@ body {
   flex-direction: row;
   overflow: hidden;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .homepage-wrapper {
@@ -101,7 +106,6 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .homepage-main-wrapper {
@@ -192,7 +196,6 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .about-main-wrapper {
@@ -254,7 +257,6 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .entries-main-wrapper {
@@ -308,7 +310,6 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .work-main-wrapper {
@@ -419,7 +420,6 @@ body {
   align-items: center;
   justify-content: right;
   overflow: hidden;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .contact-main-wrapper {
