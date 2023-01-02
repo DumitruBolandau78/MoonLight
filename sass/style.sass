@@ -1,3 +1,6 @@
+:root
+    --doc-height: 100%
+    
 *, *::before, *::after
     box-sizing: border-box
     -webkit-box-sizing: border-box
@@ -7,12 +10,16 @@ html
     margin: 0
     font-family: Arial, Helvetica, sans-serif
     overflow: auto
+    height: 100vh
+    height: var(--doc-height)
 
 body
     margin: 0
     overflow: hidden
     position: relative
     scroll-behavior: smooth
+    height: 100vh
+    height: var(--doc-height)
 
 .close-open-aside
     position: fixed

@@ -266,7 +266,7 @@ function removeAllStyles() {
     });
 }
 
-entriesLinkNr2[1].addEventListener('click', function(){
+entriesLinkNr2[1].addEventListener('click', function () {
     removeAllStyles();
     li[3].style.backgroundColor = 'white';
     li[3].querySelector('a').style.color = 'rgb(49, 49, 49)';
@@ -289,3 +289,12 @@ const form = document.querySelector('form.form');
 form.addEventListener('click', (e) => {
     e.preventDefault;
 });
+
+
+const documentHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`);
+};
+
+window.addEventListener('resize', documentHeight);
+documentHeight();
