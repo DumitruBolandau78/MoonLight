@@ -1,5 +1,5 @@
 :root {
-  --doc-height: 100%;
+  --doc-height: 100vh;
 }
 
 *, *::before, *::after {
@@ -92,6 +92,7 @@ body {
   flex-direction: row;
   overflow: hidden;
   height: 100vh;
+  height: var(--doc-height);
 }
 
 .homepage-wrapper {
@@ -100,6 +101,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   align-items: center;
   justify-content: right;
@@ -190,6 +192,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   align-items: center;
   justify-content: right;
@@ -251,6 +254,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   align-items: center;
   justify-content: right;
@@ -304,6 +308,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   align-items: center;
   justify-content: right;
@@ -414,6 +419,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   align-items: center;
   justify-content: right;
