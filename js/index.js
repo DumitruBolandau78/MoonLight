@@ -284,7 +284,7 @@ linkArray.forEach((item, i) => {
     }
 });
 
-const form = document.querySelector('form.form');
+const form = document.querySelector('form');
 
 form.addEventListener('click', (e) => {
     e.preventDefault;
