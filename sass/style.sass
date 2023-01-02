@@ -10,16 +10,18 @@ html
     margin: 0
     font-family: Arial, Helvetica, sans-serif
     overflow: auto
-    height: 100vh
+    min-height: 100vh
     height: var(--doc-height)
+    min-height: -webkit-fill-available
 
 body
     margin: 0
     overflow: hidden
     position: relative
     scroll-behavior: smooth
-    height: 100vh
+    min-height: 100vh
     height: var(--doc-height)
+    min-height: -webkit-fill-available
 
 .close-open-aside
     position: fixed
